@@ -1,102 +1,64 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
-import Banner from "../components/UFEIBanner.astro";
+import Section from "../components/Section.astro";
 ---
 
 <Layout title="End-User License Agreement (EULA)">
-  <main>
-    <h1>End-User License Agreement</h1>
+   <main class="m-auto max-w-[100ch]">
+      <h1 class="text-4xl pb-3 pt-7">End-User License Agreement</h1>
+      <p class="pb-2">
+         This End-User License Agreement ("EULA") is a legal agreement between you and Urban
+         Forest Ecosystem Institute regarding your use of the SelecTree software available on
+         the website selectree.calpoly.edu ("Software").
 
-    <p>
-      This End-User License Agreement ("EULA") is a legal agreement between you and Urban
-      Forest Ecosystem Institute regarding your use of the SelecTree software available on
-      the website selectree.calpoly.edu ("Software").
-    </p>
+      </p>
+      <p class="pb-5">
+         Please read this EULA agreement carefully before using the SelecTree software. By
+         using the SelecTree software, you are confirming your acceptance of the Software and
+         agreeing to become bound by the terms of this EULA agreement.
+      </p>
+      <Section
+         title="License Grant"
+         body="Urban Forest Ecosystem Institute hereby grants you a personal, non-transferable, non-exclusive license to use the SelecTree software in accordance with the terms of this EULA agreement. You are responsible for ensuring your device meets the minimum requirements of the SelecTree software."
+      />
 
-    <p>
-      Please read this EULA agreement carefully before using the SelecTree software. By
-      using the SelecTree software, you are confirming your acceptance of the Software and
-      agreeing to become bound by the terms of this EULA agreement.
-    </p>
+      <h1 class="text-2xl"> You are not permitted to:</h1>
+      
+      <div class="pl-10 pb-5">
+         <li>
+            Edit, alter, modify, adapt, translate, or otherwise change the whole or any part
+            of the Software
+         </li>
+         <li>
+            Reproduce, copy, distribute, resell or otherwise use the Software for any
+            commercial purpose
+         </li>
+         <li>
+            Allow any third party to use the Software on behalf of or for the benefit of any
+            third party
+         </li>
+         <li>
+            Use the Software in any way which breaches any applicable local, national or
+            international law
+         </li>
+         <li>
+            Use the Software for any purpose that Urban Forest Ecosystem Institute considers
+            is a breach of this EULA agreement
+         </li>
+      </div>
 
-    <h2>License Grant</h2>
+      <Section 
+         title="Intellectual Property and Ownership"
+         body="Urban Forest Ecosystem Institute shall retain ownership of the Software and all intellectual property rights related to the Software. The Software (and the copyright, and other intellectual property rights of whatever nature in the Software, including any modifications made thereto) are and shall remain the property of Urban Forest Ecosystem Institute."/>
 
-    <p>
-      Urban Forest Ecosystem Institute hereby grants you a personal, non-transferable,
-      non-exclusive license to use the SelecTree software in accordance with the terms of
-      this EULA agreement. You are responsible for ensuring your device meets the minimum
-      requirements of the SelecTree software.
-    </p>
 
-    <p>You are not permitted to:</p>
-    <ul>
-      <li>
-        Edit, alter, modify, adapt, translate, or otherwise change the whole or any part
-        of the Software
-      </li>
-      <li>
-        Reproduce, copy, distribute, resell or otherwise use the Software for any
-        commercial purpose
-      </li>
-      <li>
-        Allow any third party to use the Software on behalf of or for the benefit of any
-        third party
-      </li>
-      <li>
-        Use the Software in any way which breaches any applicable local, national or
-        international law
-      </li>
-      <li>
-        Use the Software for any purpose that Urban Forest Ecosystem Institute considers
-        is a breach of this EULA agreement
-      </li>
-    </ul>
+      <Section 
+         title="Termination"
+         body="This EULA agreement is effective from the date you first use the Software and shall continue until terminated. Urban Forest Ecosystem Institute reserves the right to terminate this agreement at any time if you fail to comply with any term of this EULA agreement. Upon termination, you agree to stop all access and use of the Software."/>
 
-    <h2>Intellectual Property and Ownership</h2>
-
-    <p>
-      Urban Forest Ecosystem Institute shall retain ownership of the Software and all
-      intellectual property rights related to the Software. The Software (and the
-      copyright, and other intellectual property rights of whatever nature in the
-      Software, including any modifications made thereto) are and shall remain the
-      property of Urban Forest Ecosystem Institute.
-    </p>
-
-    <h2>Termination</h2>
-
-    <p>
-      This EULA agreement is effective from the date you first use the Software and shall
-      continue until terminated. Urban Forest Ecosystem Institute reserves the right to
-      terminate this agreement at any time if you fail to comply with any term of this
-      EULA agreement. Upon termination, you agree to stop all access and use of the
-      Software.
-    </p>
-
-    <h2>Governing Law</h2>
-
-    <p>
-      This EULA agreement and any dispute arising out of or in connection with this EULA
-      agreement shall be governed by and construed in accordance with the laws of The
-      United States.
-    </p>
-  </main>
+      <Section 
+         title="Governing Law"
+         body="This EULA agreement and any dispute arising out of or in connection with this EULA agreement shall be governed by and construed in accordance with the laws of The United States."
+      />
+   </main>
 </Layout>
-
-<style>
-  main {
-    margin: auto;
-    padding: 1.5rem;
-    max-width: 60ch;
-  }
-  h1 {
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 0;
-  }
-  h2 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin: 0;
-  }
-</style>
