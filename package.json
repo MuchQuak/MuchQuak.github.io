@@ -1,0 +1,22 @@
+{
+  "name": "selectree.github.io",
+  "version": "1.0.0",
+  "description": "Github pages for selectree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuchQuak/selectree.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuchQuak/selectree.github.io/issues"
+  },
+  "homepage": "https://github.com/MuchQuak/selectree.github.io#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
