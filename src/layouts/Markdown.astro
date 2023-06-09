@@ -1,0 +1,12 @@
+---
+import MainLayout from "./Layout.astro";
+
+const { frontmatter } = Astro.props;
+---
+
+<MainLayout title="Markdown">
+   <h1 class="text-center text-4xl pb-3 pt-7">{frontmatter.title}</h1>
+   <main class="m-auto p-[1.5rem] max-w-[100ch]">
+      <slot/>
+   </main>
+</MainLayout>
