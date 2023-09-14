@@ -1,7 +1,16 @@
 ---
-layout: "../layouts/Markdown.astro"
+layout: "./src/layouts/Markdown.astro"
 title: "Database Documentation"
 ---
+
+## Table Groups
+[Tree Tables](#tree-information)<br/>
+[User Tables](#user-tables)<br/>
+[List Tables](#list-tables)<br/>
+[BigTree Tables](#bigtree-tables)<br/>
+[Misc Tables](#misc-tables)<br/>
+
+
 ## Tree Information
 | Table Name        | Description               | Deprecated |
 |-------------------|:--------------------------|:----------:|
@@ -37,7 +46,6 @@ title: "Database Documentation"
 | [preferred_common]()|TODO (Logan)|No
 | [quote]()|TODO (Logan)|No
 | [quotes]()|TODO (Logan)|No
-| [role]()      |Types of user permissons   | No
 | [salinity_tolerance]()|TODO (Logan)|No
 | [soil_texture]()|TODO (Logan)|No
 | [sunset_zone]()|TODO (Logan)|No
@@ -50,11 +58,20 @@ title: "Database Documentation"
 ## User Tables 
 | Table Name        | Description               | Deprecated |
 |-------------------|:--------------------------|:----------:|
+| [role](./tables/roles)|Types of user permissons   | No
 | [user]()|TODO (Logan)|No
 | [user_notifications]()|TODO (Logan)|No
 | [user_nurseries]()|TODO (Logan)|No
 | [user_role_list]()|TODO (Logan)|No
 | [users]()|TODO (Logan)|No
+
+## Role 
+| Attribute Name | Type | Not Null | Deprecated | Needs Translation |
+|----------------|:----:|:--------:|:----------:|:-----------------:|
+|**Primary Key**|||||
+|role_id|`int`| Yes | No | No |
+|**Other Attributes**|||||
+|role_name|`unique varchar(255)`| Yes| No | No |
 
 ## List Tables 
 | Table Name        | Description               | Deprecated |
@@ -88,11 +105,3 @@ title: "Database Documentation"
 | [knex_migrations]()|TODO (Logan)|No
 | [knex_migrations_lock]()|TODO (Logan)|No
 
-
-## Role 
-| Attribute Name | Type | Not Null | Deprecated | Needs Translation |
-|----------------|:----:|:--------:|:----------:|:-----------------:|
-|**Primary Key**|||||
-|role_id|`int`| Yes | No | No |
-|**Other Attributes**|||||
-|role_name|`unique varchar(255)`| Yes| No | No |
