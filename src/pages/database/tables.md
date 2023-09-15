@@ -1,5 +1,5 @@
 ---
-layout: "./src/layouts/Markdown.astro"
+layout: "../../layouts/Markdown.astro"
 title: "Database Documentation"
 ---
 ## Work in Progress 
