@@ -5,213 +5,181 @@ title: "Database Documentation"
 ## Work in Progress 
 | Table Name | Description | Deprecated |
 |--|:--|:-:|
-| [disease_susceptibility](disease_susceptibility) | TODO | false |
-| [user_notifications](user_notifications) | TODO | false |
-| [attracts_wildlife](attracts_wildlife) | TODO | false |
-| [litter_type](litter_type) | TODO | false |
-| [person_org](person_org) | TODO | false |
-| [user](user) | TODO | false |
-| [big_tree](big_tree) | TODO | false |
-| [facets](facets) | TODO | false |
-| [role](role) | TODO | false |
-| [list_descriptors](list_descriptors) | TODO | false |
-| [bt_person_org](bt_person_org) | TODO | false |
-| [tree](tree) | TODO | false |
-| [soil_texture](soil_texture) | TODO | false |
-| [pest_susceptibility](pest_susceptibility) | TODO | false |
-| [disease_resistant](disease_resistant) | TODO | false |
-| [landscape_application](landscape_application) | TODO | false |
-| [bt_person](bt_person) | TODO | false |
-| [tree_shape](tree_shape) | TODO | false |
-| [list_description_map](list_description_map) | TODO | false |
-| [bt_tree_locations](bt_tree_locations) | TODO | false |
-| [bt_nomination_contacts](bt_nomination_contacts) | TODO | false |
-| [generalnativerange](generalnativerange) | TODO | false |
-| [preferred_common](preferred_common) | TODO | false |
-| [bark_texture](bark_texture) | TODO | false |
-| [notifications](notifications) | TODO | false |
-| [bt_photo_link](bt_photo_link) | TODO | false |
-| [facets_tree_match](facets_tree_match) | TODO | false |
-| [user_role_list](user_role_list) | TODO | false |
-| [flower_time](flower_time) | TODO | false |
-| [users](users) | TODO | false |
-| [tree_list](tree_list) | TODO | false |
-| [leafshapes](leafshapes) | TODO | false |
-| [list](list) | TODO | false |
-| [landscape_use](landscape_use) | TODO | false |
 | [generic_common](generic_common) | TODO | false |
-| [bt_owners](bt_owners) | TODO | false |
-| [climate_zones](climate_zones) | TODO | false |
-| [user_nurseries](user_nurseries) | TODO | false |
-| [hybrid](hybrid) | TODO | false |
-| [common](common) | TODO | false |
-| [fruiting_time](fruiting_time) | TODO | false |
-| [zip_code_climate_zones](zip_code_climate_zones) | TODO | false |
-| [photo](photo) | TODO | false |
-| [knex_migrations_lock](knex_migrations_lock) | TODO | false |
-| [quote](quote) | TODO | false |
-| [nurseries](nurseries) | TODO | false |
-| [photo_status](photo_status) | TODO | false |
-| [pest_resistant](pest_resistant) | TODO | false |
-| [usda_zone](usda_zone) | TODO | false |
-| [person](person) | TODO | false |
-| [foliage_growth_color](foliage_growth_color) | TODO | false |
-| [fruit_value](fruit_value) | TODO | false |
-| [quotes](quotes) | TODO | false |
-| [taxon](taxon) | TODO | false |
-| [bt_nominations](bt_nominations) | TODO | false |
-| [health_hazard](health_hazard) | TODO | false |
-| [sunset_zone](sunset_zone) | TODO | false |
-| [salinity_tolerance](salinity_tolerance) | TODO | false |
-| [saved_search](saved_search) | TODO | false |
-| [bt_tree](bt_tree) | TODO | false |
-| [photo_link](photo_link) | TODO | false |
-| [knex_migrations](knex_migrations) | TODO | false |
-| [bt_photos](bt_photos) | TODO | false |
 | [flower_color](flower_color) | TODO | false |
+| [pest_resistant](pest_resistant) | TODO | false |
+| [fruit_value](fruit_value) | TODO | false |
+| [facets_tree_match](facets_tree_match) | TODO | false |
+| [soil_texture](soil_texture) | TODO | false |
+| [fruiting_time](fruiting_time) | TODO | false |
+| [saved_search](saved_search) | TODO | false |
+| [leafshapes](leafshapes) | TODO | false |
+| [usda_zone](usda_zone) | TODO | false |
+| [tree](tree) | TODO | false |
+| [zip_code_climate_zones](zip_code_climate_zones) | TODO | false |
+| [foliage_growth_color](foliage_growth_color) | TODO | false |
+| [bt_nominations](bt_nominations) | TODO | false |
+| [person_org](person_org) | TODO | false |
+| [disease_susceptibility](disease_susceptibility) | TODO | false |
+| [user](user) | TODO | false |
+| [bt_person](bt_person) | TODO | false |
+| [bt_tree_locations](bt_tree_locations) | TODO | false |
+| [landscape_application](landscape_application) | TODO | false |
+| [role](role) | TODO | false |
+| [climate_zones](climate_zones) | TODO | false |
+| [big_tree](big_tree) | TODO | false |
+| [quote](quote) | TODO | false |
+| [litter_type](litter_type) | TODO | false |
+| [list](list) | TODO | false |
+| [taxon](taxon) | TODO | false |
+| [generalnativerange](generalnativerange) | TODO | false |
+| [bark_texture](bark_texture) | TODO | false |
+| [bt_tree](bt_tree) | TODO | false |
+| [photo_status](photo_status) | TODO | false |
+| [bt_person_org](bt_person_org) | TODO | false |
+| [tree_shape](tree_shape) | TODO | false |
+| [users](users) | TODO | false |
+| [user_nurseries](user_nurseries) | TODO | false |
+| [knex_migrations](knex_migrations) | TODO | false |
+| [tree_list](tree_list) | TODO | false |
+| [facets](facets) | TODO | false |
+| [pest_susceptibility](pest_susceptibility) | TODO | false |
+| [salinity_tolerance](salinity_tolerance) | TODO | false |
+| [bt_photos](bt_photos) | TODO | false |
+| [list_descriptors](list_descriptors) | TODO | false |
+| [preferred_common](preferred_common) | TODO | false |
+| [bt_owners](bt_owners) | TODO | false |
+| [hybrid](hybrid) | TODO | false |
+| [bt_photo_link](bt_photo_link) | TODO | false |
+| [landscape_use](landscape_use) | TODO | false |
+| [user_notifications](user_notifications) | TODO | false |
+| [list_description_map](list_description_map) | TODO | false |
+| [quotes](quotes) | TODO | false |
+| [health_hazard](health_hazard) | TODO | false |
+| [bt_nomination_contacts](bt_nomination_contacts) | TODO | false |
+| [person](person) | TODO | false |
 | [bt_owned_trees](bt_owned_trees) | TODO | false |
+| [notifications](notifications) | TODO | false |
+| [photo](photo) | TODO | false |
+| [sunset_zone](sunset_zone) | TODO | false |
+| [nurseries](nurseries) | TODO | false |
+| [disease_resistant](disease_resistant) | TODO | false |
+| [knex_migrations_lock](knex_migrations_lock) | TODO | false |
+| [flower_time](flower_time) | TODO | false |
+| [common](common) | TODO | false |
+| [attracts_wildlife](attracts_wildlife) | TODO | false |
+| [photo_link](photo_link) | TODO | false |
+| [user_role_list](user_role_list) | TODO | false |
 
-## disease_susceptibility
+## generic_common
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| disease_susceptibility_id | int | NO | false |
-| Foreign Keys | | | |
+| **Primary Keys** | | | |
+| generic_id | int | NO | false |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
-| disease_susceptibility | tinytext | NO | false |
+| **Other Attributes** | | | |
+| generic | varchar(255) | YES | false |
 
-## user_notifications
+## flower_color
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| notification_id | int | NO | false |
-| user_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-
-## attracts_wildlife
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| attracts_wildlife_id | int | NO | false |
-| Foreign Keys | | | |
+| **Primary Keys** | | | |
+| flower_color_id | int | NO | false |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
-| attracts_wildlife | tinytext | NO | false |
+| **Other Attributes** | | | |
+| flower_color | tinytext | NO | false |
 
-## litter_type
+## pest_resistant
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| litter_type_id | int | NO | false |
-| Foreign Keys | | | |
+| **Primary Keys** | | | |
+| pest_resistant_id | int | NO | false |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
-| litter_type | tinytext | NO | false |
+| **Other Attributes** | | | |
+| pest_resistant | tinytext | NO | false |
 
-## person_org
+## fruit_value
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| name | tinytext | YES | false |
-| address | tinytext | YES | false |
-| city | tinytext | YES | false |
-| state | tinytext | YES | false |
-| zip | varchar(10) | YES | false |
-| phone | tinytext | YES | false |
-| email | tinytext | YES | false |
-| date_created | timestamp | YES | false |
-| date_updated | timestamp | YES | false |
-
-## user
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| user_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| first_name | tinytext | NO | false |
-| last_name | tinytext | NO | false |
-| post_nominal | tinytext | YES | false |
-| email | varchar(255) | NO | false |
-| password | tinytext | NO | false |
-| role_id | int | NO | false |
-| organization | tinytext | YES | false |
-| state | tinytext | YES | false |
-
-## big_tree
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
+| **Primary Keys** | | | |
+| fruit_value_id | int | NO | false |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| girth | int | YES | false |
-| height | int | YES | false |
-| crown_width | int | YES | false |
-| date_measured | date | YES | false |
-| latitude | decimal(9,7) | YES | false |
-| longitude | decimal(10,7) | YES | false |
-| location | tinytext | YES | false |
-| county | tinytext | YES | false |
-| national_champion | tinyint(1) | YES | false |
-| co_champion | tinyint(1) | YES | false |
-| approval_status | tinyint(1) | YES | false |
-| date_created | timestamp | YES | false |
-| date_updated | timestamp | YES | false |
+| **Other Attributes** | | | |
+| fruit_value | tinytext | NO | false |
 
-## facets
+## facets_tree_match
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| facets_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| facets_text | varchar(64) | NO | false |
+| **Primary Keys** | | | |
+| facets_tree_match_id | int | NO | false |
+| **Foreign Keys** | | | |
+| facets_id | int | YES | false |
+| tree_id | int | YES | false |
+| climate_zones_id | int | YES | false |
+| **Other Attributes** | | | |
+| match_value | int | YES | false |
 
-## role
+## soil_texture
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| role_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| role_name | varchar(255) | NO | false |
+| **Primary Keys** | | | |
+| soil_texture_id | int | NO | false |
+| **Foreign Keys** | | | |
+| tree_id | int | NO | false |
+| **Other Attributes** | | | |
+| soil_texture | tinytext | NO | false |
 
-## list_descriptors
+## fruiting_time
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| type | enum('category','keyword','region') | NO | false |
-| descriptor | varchar(255) | NO | false |
+| **Primary Keys** | | | |
+| fruiting_time_id | int | NO | false |
+| **Foreign Keys** | | | |
+| tree_id | int | NO | false |
+| **Other Attributes** | | | |
+| fruiting_time | tinytext | NO | false |
 
-## bt_person_org
+## saved_search
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| person_org_id | int | NO | false |
-| bt_id | int | NO | false |
-| bt_role | varchar(255) | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| date_created | timestamp | YES | false |
-| date_updated | timestamp | YES | false |
+| **Primary Keys** | | | |
+| list_id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| query_data | text | YES | false |
+
+## leafshapes
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| ID | int | YES | false |
+| Leaflet_Shape | text | YES | false |
+| Leaf_Arrangement | text | YES | false |
+| Leaf_Form | text | YES | false |
+
+## usda_zone
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| usda_id | int | NO | false |
+| **Foreign Keys** | | | |
+| tree_id | int | NO | false |
+| **Other Attributes** | | | |
+| usda_zone | tinyint | NO | false |
 
 ## tree
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | tree_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
 | scientific_name | text | YES | false |
 | family | varchar(255) | YES | false |
 | family_previous | tinytext | YES | false |
@@ -269,82 +237,102 @@ title: "Database Documentation"
 | powerline_friendly | tinyint(1) | YES | false |
 | foliage_type | tinytext | YES | false |
 
-## soil_texture
+## zip_code_climate_zones
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| soil_texture_id | int | NO | false |
-| Foreign Keys | | | |
-| tree_id | int | NO | false |
-| Other Attributes | | | |
-| soil_texture | tinytext | NO | false |
+| **Primary Keys** | | | |
+| zip_code_climate_zones_id | int | NO | false |
+| **Foreign Keys** | | | |
+| climate_zones_id | int | YES | false |
+| **Other Attributes** | | | |
+| zip_code | int | YES | false |
+| match_value | int | YES | false |
 
-## pest_susceptibility
+## foliage_growth_color
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| pest_susceptibility_id | int | NO | false |
-| Foreign Keys | | | |
+| **Primary Keys** | | | |
+| foliage_growth_color_id | int | NO | false |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
-| pest_susceptibility | tinytext | NO | false |
+| **Other Attributes** | | | |
+| foliage_growth_color | tinytext | NO | false |
 
-## disease_resistant
+## bt_nominations
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| disease_resistant_id | int | NO | false |
-| Foreign Keys | | | |
-| tree_id | int | NO | false |
-| Other Attributes | | | |
-| disease_resistant | tinytext | NO | false |
+| **Primary Keys** | | | |
+| id | int | NO | false |
+| **Foreign Keys** | | | |
+| bt_id | int | NO | false |
+| nom_contact_id | int | YES | false |
+| **Other Attributes** | | | |
+| measurer_names | text | NO | false |
+| nominator_names | text | NO | false |
+| date_measured | date | YES | false |
+| date_created | timestamp | YES | false |
+| date_updated | timestamp | YES | false |
 
-## landscape_application
+## person_org
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| landscape_application_id | int | NO | false |
-| Foreign Keys | | | |
+| **Primary Keys** | | | |
+| id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| name | tinytext | YES | false |
+| address | tinytext | YES | false |
+| city | tinytext | YES | false |
+| state | tinytext | YES | false |
+| zip | varchar(10) | YES | false |
+| phone | tinytext | YES | false |
+| email | tinytext | YES | false |
+| date_created | timestamp | YES | false |
+| date_updated | timestamp | YES | false |
+
+## disease_susceptibility
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| disease_susceptibility_id | int | NO | false |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
-| landscape_application | tinytext | NO | false |
+| **Other Attributes** | | | |
+| disease_susceptibility | tinytext | NO | false |
+
+## user
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| user_id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| first_name | tinytext | NO | false |
+| last_name | tinytext | NO | false |
+| post_nominal | tinytext | YES | false |
+| email | varchar(255) | NO | false |
+| password | tinytext | NO | false |
+| role_id | int | NO | false |
+| organization | tinytext | YES | false |
+| state | tinytext | YES | false |
 
 ## bt_person
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | person_id | int | NO | false |
 | bt_id | int | NO | false |
 | bt_role | varchar(255) | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-
-## tree_shape
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| tree_shape_id | int | NO | false |
-| Foreign Keys | | | |
-| tree_id | int | NO | false |
-| Other Attributes | | | |
-| tree_shape | tinytext | NO | false |
-
-## list_description_map
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| list_id | int | NO | false |
-| list_descriptors_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
 
 ## bt_tree_locations
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | bt_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
 | latitude | decimal(9,7) | NO | false |
 | longitude | decimal(10,7) | NO | false |
 | location | text | NO | false |
@@ -352,113 +340,193 @@ title: "Database Documentation"
 | hidden | tinyint(1) | NO | false |
 | property_type | enum('public','private','unknown') | NO | false |
 
-## bt_nomination_contacts
+## landscape_application
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
+| landscape_application_id | int | NO | false |
+| **Foreign Keys** | | | |
+| tree_id | int | NO | false |
+| **Other Attributes** | | | |
+| landscape_application | tinytext | NO | false |
+
+## role
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| role_id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| role_name | varchar(255) | NO | false |
+
+## climate_zones
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| climate_zones_id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| climate_zone | varchar(64) | NO | false |
+
+## big_tree
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
 | id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| name | tinytext | NO | false |
-| address | tinytext | NO | false |
-| city | tinytext | NO | false |
-| zip | varchar(10) | NO | false |
-| state | tinytext | NO | false |
-| phone | varchar(31) | NO | false |
-| email | tinytext | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| tree_id | int | NO | false |
+| girth | int | YES | false |
+| height | int | YES | false |
+| crown_width | int | YES | false |
+| date_measured | date | YES | false |
+| latitude | decimal(9,7) | YES | false |
+| longitude | decimal(10,7) | YES | false |
+| location | tinytext | YES | false |
+| county | tinytext | YES | false |
+| national_champion | tinyint(1) | YES | false |
+| co_champion | tinyint(1) | YES | false |
+| approval_status | tinyint(1) | YES | false |
+| date_created | timestamp | YES | false |
+| date_updated | timestamp | YES | false |
+
+## quote
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| quote_id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| quote | text | YES | false |
+| author | tinytext | YES | false |
+
+## litter_type
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| litter_type_id | int | NO | false |
+| **Foreign Keys** | | | |
+| tree_id | int | NO | false |
+| **Other Attributes** | | | |
+| litter_type | tinytext | NO | false |
+
+## list
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| list_id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| description | varchar(255) | NO | false |
+| name | varchar(255) | NO | false |
+| date_created | timestamp | YES | false |
+| date_updated | timestamp | YES | false |
+| type | enum('List','Saved Search','Inventory') | YES | false |
+| isPublic | tinyint(1) | YES | false |
+| banned | tinyint(1) | NO | false |
+
+## taxon
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| taxon_id | int | NO | false |
+| **Foreign Keys** | | | |
+| tree_id | int | NO | false |
+| **Other Attributes** | | | |
+| genus | varchar(255) | YES | false |
+| species | varchar(255) | YES | false |
+| hybrid_alt_species | varchar(255) | YES | false |
+| subspecies | varchar(255) | YES | false |
+| variety | varchar(255) | YES | false |
+| cultivar | varchar(255) | YES | false |
+| hybrid_x | tinytext | YES | false |
+| name_concat | tinytext | YES | false |
+| name_unformatted | varchar(255) | YES | false |
+| sequence | tinyint | NO | false |
 
 ## generalnativerange
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| Foreign Keys | | | |
-| Other Attributes | | | |
+| **Primary Keys** | | | |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
 | ID | int | YES | false |
 | NativeRange | text | YES | false |
-
-## preferred_common
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| tree_id | int | NO | false |
-| common_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| common_name | varchar(255) | YES | false |
 
 ## bark_texture
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | bark_texture_id | int | NO | false |
-| Foreign Keys | | | |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
+| **Other Attributes** | | | |
 | bark_texture | tinytext | NO | false |
 
-## notifications
+## bt_tree
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| notification_type | enum('Delete','Update') | NO | false |
-| message | text | NO | false |
-
-## bt_photo_link
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| bt_id | int | YES | false |
-| link | text | YES | false |
-| file_name | text | YES | false |
-| credit | text | YES | false |
-| sequence | int | YES | false |
-
-## facets_tree_match
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| facets_tree_match_id | int | NO | false |
-| Foreign Keys | | | |
-| facets_id | int | YES | false |
-| tree_id | int | YES | false |
-| climate_zones_id | int | YES | false |
-| Other Attributes | | | |
-| match_value | int | YES | false |
-
-## user_role_list
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| user_id | int | NO | false |
-| list_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| role | enum('Admin','Collaborator','Follower') | NO | false |
-
-## flower_time
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| flower_time_id | int | NO | false |
-| Foreign Keys | | | |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
-| flower_time | tinytext | NO | false |
+| **Other Attributes** | | | |
+| girth | int | NO | false |
+| height | int | NO | false |
+| crown_width | int | NO | false |
+| points | float | NO | false |
+| national_champion | tinyint(1) | NO | false |
+| state_champion | tinyint(1) | NO | false |
+| co_champion | tinyint(1) | NO | false |
+| approval_status | tinyint(1) | NO | false |
+| dead | tinyint(1) | NO | false |
+| dethroned | tinyint(1) | NO | false |
+| notes | text | YES | false |
+
+## photo_status
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| photo_status_id | int | NO | false |
+| **Foreign Keys** | | | |
+| tree_id | int | NO | false |
+| **Other Attributes** | | | |
+| tree | tinytext | YES | false |
+| leaves | tinytext | YES | false |
+| flower | tinytext | YES | false |
+| fruit | tinytext | YES | false |
+| bark | tinytext | YES | false |
+
+## bt_person_org
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| person_org_id | int | NO | false |
+| bt_id | int | NO | false |
+| bt_role | varchar(255) | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| date_created | timestamp | YES | false |
+| date_updated | timestamp | YES | false |
+
+## tree_shape
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| tree_shape_id | int | NO | false |
+| **Foreign Keys** | | | |
+| tree_id | int | NO | false |
+| **Other Attributes** | | | |
+| tree_shape | tinytext | NO | false |
 
 ## users
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | id | int | NO | false |
-| Foreign Keys | | | |
+| **Foreign Keys** | | | |
 | role_id | int | NO | false |
-| Other Attributes | | | |
+| **Other Attributes** | | | |
 | first_name | tinytext | NO | false |
 | last_name | tinytext | NO | false |
 | email | varchar(255) | NO | false |
@@ -472,69 +540,105 @@ title: "Database Documentation"
 | verified | tinyint(1) | NO | false |
 | banned | tinyint(1) | NO | false |
 
+## user_nurseries
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| user_id | int | NO | false |
+| nursery_id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+
+## knex_migrations
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| id | int unsigned | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| name | varchar(255) | YES | false |
+| batch | int | YES | false |
+| migration_time | timestamp | YES | false |
+
 ## tree_list
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | list_id | int | NO | false |
 | position | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
 | tree_id | int | NO | false |
 
-## leafshapes
+## facets
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| ID | int | YES | false |
-| Leaflet_Shape | text | YES | false |
-| Leaf_Arrangement | text | YES | false |
-| Leaf_Form | text | YES | false |
+| **Primary Keys** | | | |
+| facets_id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| facets_text | varchar(64) | NO | false |
 
-## list
+## pest_susceptibility
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| list_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| description | varchar(255) | NO | false |
-| name | varchar(255) | NO | false |
-| date_created | timestamp | YES | false |
-| date_updated | timestamp | YES | false |
-| type | enum('List','Saved Search','Inventory') | YES | false |
-| isPublic | tinyint(1) | YES | false |
-| banned | tinyint(1) | NO | false |
-
-## landscape_use
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| landscape_use_id | int | NO | false |
-| Foreign Keys | | | |
+| **Primary Keys** | | | |
+| pest_susceptibility_id | int | NO | false |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
-| landscape_use | tinytext | NO | false |
+| **Other Attributes** | | | |
+| pest_susceptibility | tinytext | NO | false |
 
-## generic_common
+## salinity_tolerance
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| generic_id | int | NO | false |
-| Foreign Keys | | | |
+| **Primary Keys** | | | |
+| salinity_tolerance_id | int | NO | false |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
-| generic | varchar(255) | YES | false |
+| **Other Attributes** | | | |
+| salinity_tolerance | tinytext | NO | false |
+
+## bt_photos
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| id | int | NO | false |
+| **Foreign Keys** | | | |
+| nom_id | int | NO | false |
+| **Other Attributes** | | | |
+| link | text | NO | false |
+| file_name | text | NO | false |
+| credit | text | NO | false |
+| sequence | int | NO | false |
+
+## list_descriptors
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| type | enum('category','keyword','region') | NO | false |
+| descriptor | varchar(255) | NO | false |
+
+## preferred_common
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| tree_id | int | NO | false |
+| common_id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| common_name | varchar(255) | YES | false |
 
 ## bt_owners
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
 | name | tinytext | NO | false |
 | address | tinytext | NO | false |
 | city | tinytext | NO | false |
@@ -543,157 +647,101 @@ title: "Database Documentation"
 | phone | varchar(31) | NO | false |
 | email | tinytext | NO | false |
 
-## climate_zones
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| climate_zones_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| climate_zone | varchar(64) | NO | false |
-
-## user_nurseries
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| user_id | int | NO | false |
-| nursery_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-
 ## hybrid
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | hybrid_id | int | NO | false |
-| Foreign Keys | | | |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
+| **Other Attributes** | | | |
 | genus_parent1 | tinytext | YES | false |
 | species_parent1 | tinytext | YES | false |
 | genus_parent2 | tinytext | YES | false |
 | species_parent2 | tinytext | YES | false |
 
-## common
+## bt_photo_link
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| common_id | int | NO | false |
-| Foreign Keys | | | |
-| tree_id | int | NO | false |
-| Other Attributes | | | |
-| common | varchar(255) | YES | false |
-| sequence | tinyint | YES | false |
-| displayed_alt_common | tinyint | YES | false |
-| display_order | int | YES | false |
-
-## fruiting_time
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| fruiting_time_id | int | NO | false |
-| Foreign Keys | | | |
-| tree_id | int | NO | false |
-| Other Attributes | | | |
-| fruiting_time | tinytext | NO | false |
-
-## zip_code_climate_zones
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| zip_code_climate_zones_id | int | NO | false |
-| Foreign Keys | | | |
-| climate_zones_id | int | YES | false |
-| Other Attributes | | | |
-| zip_code | int | YES | false |
-| match_value | int | YES | false |
-
-## photo
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| id | int | YES | false |
-| tree_id | int | YES | false |
-| attribute_name | text | YES | false |
-| credit | text | YES | false |
-| image_order | int | YES | false |
-
-## knex_migrations_lock
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| index | int unsigned | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| is_locked | int | YES | false |
-
-## quote
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| quote_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| quote | text | YES | false |
-| author | tinytext | YES | false |
-
-## nurseries
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| org_name | tinytext | NO | false |
-| website_name | tinytext | YES | false |
-| website_link | text | YES | false |
-| email | tinytext | YES | false |
-| phone | varchar(31) | YES | false |
-| verified | tinyint(1) | YES | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| bt_id | int | YES | false |
+| link | text | YES | false |
+| file_name | text | YES | false |
+| credit | text | YES | false |
+| sequence | int | YES | false |
 
-## photo_status
+## landscape_use
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| photo_status_id | int | NO | false |
-| Foreign Keys | | | |
+| **Primary Keys** | | | |
+| landscape_use_id | int | NO | false |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
-| tree | tinytext | YES | false |
-| leaves | tinytext | YES | false |
-| flower | tinytext | YES | false |
-| fruit | tinytext | YES | false |
-| bark | tinytext | YES | false |
+| **Other Attributes** | | | |
+| landscape_use | tinytext | NO | false |
 
-## pest_resistant
+## user_notifications
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| pest_resistant_id | int | NO | false |
-| Foreign Keys | | | |
-| tree_id | int | NO | false |
-| Other Attributes | | | |
-| pest_resistant | tinytext | NO | false |
+| **Primary Keys** | | | |
+| notification_id | int | NO | false |
+| user_id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
 
-## usda_zone
+## list_description_map
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| usda_id | int | NO | false |
-| Foreign Keys | | | |
+| **Primary Keys** | | | |
+| list_id | int | NO | false |
+| list_descriptors_id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+
+## quotes
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| quote | text | YES | false |
+| author | text | YES | false |
+
+## health_hazard
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| health_hazard_id | int | NO | false |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
-| usda_zone | tinyint | NO | false |
+| **Other Attributes** | | | |
+| health_hazard | tinytext | NO | false |
+
+## bt_nomination_contacts
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| name | tinytext | NO | false |
+| address | tinytext | NO | false |
+| city | tinytext | NO | false |
+| zip | varchar(10) | NO | false |
+| state | tinytext | NO | false |
+| phone | varchar(31) | NO | false |
+| email | tinytext | NO | false |
 
 ## person
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
 | user_id | int | YES | false |
 | first_name | tinytext | YES | false |
 | last_name | tinytext | YES | false |
@@ -709,181 +757,133 @@ title: "Database Documentation"
 | date_created | timestamp | YES | false |
 | date_updated | timestamp | YES | false |
 
-## foliage_growth_color
+## bt_owned_trees
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| foliage_growth_color_id | int | NO | false |
-| Foreign Keys | | | |
-| tree_id | int | NO | false |
-| Other Attributes | | | |
-| foliage_growth_color | tinytext | NO | false |
-
-## fruit_value
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| fruit_value_id | int | NO | false |
-| Foreign Keys | | | |
-| tree_id | int | NO | false |
-| Other Attributes | | | |
-| fruit_value | tinytext | NO | false |
-
-## quotes
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| quote | text | YES | false |
-| author | text | YES | false |
-
-## taxon
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| taxon_id | int | NO | false |
-| Foreign Keys | | | |
-| tree_id | int | NO | false |
-| Other Attributes | | | |
-| genus | varchar(255) | YES | false |
-| species | varchar(255) | YES | false |
-| hybrid_alt_species | varchar(255) | YES | false |
-| subspecies | varchar(255) | YES | false |
-| variety | varchar(255) | YES | false |
-| cultivar | varchar(255) | YES | false |
-| hybrid_x | tinytext | YES | false |
-| name_concat | tinytext | YES | false |
-| name_unformatted | varchar(255) | YES | false |
-| sequence | tinyint | NO | false |
-
-## bt_nominations
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| id | int | NO | false |
-| Foreign Keys | | | |
+| **Primary Keys** | | | |
 | bt_id | int | NO | false |
-| nom_contact_id | int | YES | false |
-| Other Attributes | | | |
-| measurer_names | text | NO | false |
-| nominator_names | text | NO | false |
-| date_measured | date | YES | false |
-| date_created | timestamp | YES | false |
-| date_updated | timestamp | YES | false |
+| own_id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
 
-## health_hazard
+## notifications
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| health_hazard_id | int | NO | false |
-| Foreign Keys | | | |
-| tree_id | int | NO | false |
-| Other Attributes | | | |
-| health_hazard | tinytext | NO | false |
+| **Primary Keys** | | | |
+| id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| notification_type | enum('Delete','Update') | NO | false |
+| message | text | NO | false |
+
+## photo
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| id | int | YES | false |
+| tree_id | int | YES | false |
+| attribute_name | text | YES | false |
+| credit | text | YES | false |
+| image_order | int | YES | false |
 
 ## sunset_zone
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | sunset_id | int | NO | false |
-| Foreign Keys | | | |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
+| **Other Attributes** | | | |
 | sunset_zone | tinytext | NO | false |
 
-## salinity_tolerance
+## nurseries
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| salinity_tolerance_id | int | NO | false |
-| Foreign Keys | | | |
-| tree_id | int | NO | false |
-| Other Attributes | | | |
-| salinity_tolerance | tinytext | NO | false |
-
-## saved_search
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| list_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| query_data | text | YES | false |
-
-## bt_tree
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | id | int | NO | false |
-| Foreign Keys | | | |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| org_name | tinytext | NO | false |
+| website_name | tinytext | YES | false |
+| website_link | text | YES | false |
+| email | tinytext | YES | false |
+| phone | varchar(31) | YES | false |
+| verified | tinyint(1) | YES | false |
+
+## disease_resistant
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| disease_resistant_id | int | NO | false |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
-| girth | int | NO | false |
-| height | int | NO | false |
-| crown_width | int | NO | false |
-| points | float | NO | false |
-| national_champion | tinyint(1) | NO | false |
-| state_champion | tinyint(1) | NO | false |
-| co_champion | tinyint(1) | NO | false |
-| approval_status | tinyint(1) | NO | false |
-| dead | tinyint(1) | NO | false |
-| dethroned | tinyint(1) | NO | false |
-| notes | text | YES | false |
+| **Other Attributes** | | | |
+| disease_resistant | tinytext | NO | false |
+
+## knex_migrations_lock
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| index | int unsigned | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| is_locked | int | YES | false |
+
+## flower_time
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| flower_time_id | int | NO | false |
+| **Foreign Keys** | | | |
+| tree_id | int | NO | false |
+| **Other Attributes** | | | |
+| flower_time | tinytext | NO | false |
+
+## common
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| common_id | int | NO | false |
+| **Foreign Keys** | | | |
+| tree_id | int | NO | false |
+| **Other Attributes** | | | |
+| common | varchar(255) | YES | false |
+| sequence | tinyint | YES | false |
+| displayed_alt_common | tinyint | YES | false |
+| display_order | int | YES | false |
+
+## attracts_wildlife
+| Attribute Name | Attribute Type | Nullable | Deprecated |
+|:--|:--|:-:|:-:|
+| **Primary Keys** | | | |
+| attracts_wildlife_id | int | NO | false |
+| **Foreign Keys** | | | |
+| tree_id | int | NO | false |
+| **Other Attributes** | | | |
+| attracts_wildlife | tinytext | NO | false |
 
 ## photo_link
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
+| **Primary Keys** | | | |
 | photo_link_id | int | NO | false |
-| Foreign Keys | | | |
+| **Foreign Keys** | | | |
 | tree_id | int | NO | false |
-| Other Attributes | | | |
+| **Other Attributes** | | | |
 | link | text | YES | false |
 | file_name | text | YES | false |
 | attribute_name | tinytext | YES | false |
 | credit | text | YES | false |
 | sequence | int | YES | false |
 
-## knex_migrations
+## user_role_list
 | Attribute Name | Attribute Type | Nullable | Deprecated |
 |:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| id | int unsigned | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
-| name | varchar(255) | YES | false |
-| batch | int | YES | false |
-| migration_time | timestamp | YES | false |
-
-## bt_photos
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| id | int | NO | false |
-| Foreign Keys | | | |
-| nom_id | int | NO | false |
-| Other Attributes | | | |
-| link | text | NO | false |
-| file_name | text | NO | false |
-| credit | text | NO | false |
-| sequence | int | NO | false |
-
-## flower_color
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| flower_color_id | int | NO | false |
-| Foreign Keys | | | |
-| tree_id | int | NO | false |
-| Other Attributes | | | |
-| flower_color | tinytext | NO | false |
-
-## bt_owned_trees
-| Attribute Name | Attribute Type | Nullable | Deprecated |
-|:--|:--|:-:|:-:|
-| Primary Keys | | | |
-| bt_id | int | NO | false |
-| own_id | int | NO | false |
-| Foreign Keys | | | |
-| Other Attributes | | | |
+| **Primary Keys** | | | |
+| user_id | int | NO | false |
+| list_id | int | NO | false |
+| **Foreign Keys** | | | |
+| **Other Attributes** | | | |
+| role | enum('Admin','Collaborator','Follower') | NO | false |
