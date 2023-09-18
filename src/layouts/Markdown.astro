@@ -5,7 +5,7 @@ const { frontmatter } = Astro.props;
 ---
 
 <MainLayout title={frontmatter.title}>
-   <h1 class="text-center text-4xl pb-3 pt-7">{frontmatter.title}</h1>
+   <h1 class="text-center text-4xl font-bold pb-3 pt-7">{frontmatter.title}</h1>
    <main class="prose m-auto p-[1.5rem] max-w-[100ch]">
       <slot/>
    </main>
